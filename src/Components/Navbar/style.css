@@ -1,0 +1,21 @@
+/* div {
+  box-sizing: border-box;
+} */
+
+
+.nav ul{
+    /* padding: 0;
+    margin: 0; */
+    display: flex;
+    gap: 2rem;
+    font-size: 15px;
+}
+
+.nav li.active{
+  
+}
+
+.logo{
+    font-size: 20px;
+}
+
