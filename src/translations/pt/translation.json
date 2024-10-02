@@ -1,3 +1,7 @@
 {
-    "welcome":"Bem vindo"
+  "about": "Sobre",
+  "projects": "Projetos",
+  "work": "Trabalho",
+  "myCV": "Meu CV",
+  "contactMe": "Contato"
 }

@@ -1,3 +1,7 @@
 {
-    "welcome": "Welcome"
+    "about": "About",
+    "projects": "Projects",
+    "work": "Work",
+    "myCV":"My CV",
+    "contactMe": "Contact me"
 }

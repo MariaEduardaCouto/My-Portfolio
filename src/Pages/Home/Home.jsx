@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
+import HomeBlockOne from "../../Components/HomeBlockOne/HomeBlockOne";
 
 export default function Home() {
   return (
-    <div className='p-24'>Home</div>
-  )
+    <div>
+      <HomeBlockOne />
+      
+    </div>
+  );
 }
