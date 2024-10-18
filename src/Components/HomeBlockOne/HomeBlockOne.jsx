@@ -101,7 +101,7 @@ export default function HomeBlockOne() {
         <div className="intro-video">
           <video
             ref={videoRef}
-            src={Video}
+            src="src/assets/videos/videoAvatar.mp4"
             // autoPlay
             muted={isMuted}
             poster={Placeholder}
