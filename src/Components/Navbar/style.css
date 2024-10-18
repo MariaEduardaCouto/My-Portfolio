@@ -29,3 +29,17 @@ li img {
 li:hover img {
   opacity: 1;
 }
+
+
+.navbar-desktop {
+  display: none;
+}
+
+
+@media (min-width: 810px) {
+  .navbar-desktop {
+    
+    display: flex;
+    gap: 1rem; 
+  }
+}

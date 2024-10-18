@@ -15,17 +15,17 @@ export default function HomeBlockOne() {
   const frontRef = useRef(null);
   const h3Ref = useRef(null);
 
-  const videoRef = useRef(null); // Referência para o vídeo
+  const videoRef = useRef(null); 
   const [isMuted, setIsMuted] = useState(true);
   const [videoPlayed, setVideoPlayed] = useState(false);
 
   const toggleSound = () => {
     setIsMuted(!isMuted);
 
-    // Quando o som é ativado, o vídeo é reproduzido
+ 
     if (videoRef.current && !videoPlayed) {
       videoRef.current.play();
-      setVideoPlayed(true); // Marca que o vídeo foi tocado uma vez
+      setVideoPlayed(true); 
     }
   };
   
@@ -73,7 +73,7 @@ export default function HomeBlockOne() {
 
   return (
     <section id="home" className=" section">
-      <div className="main-content intro-content">
+      <div className="main-content p-4 md:p-10 intro-content">
         <div className="intro-text-content w-[80%]">
           <h3 ref={h3Ref} className="title text-3xl">
             <img
@@ -109,16 +109,16 @@ export default function HomeBlockOne() {
             preload="auto"
             className="w-full h-auto object-cover"
             // onCanPlay={() => videoRef.current.play()}
-            onEnded={(e) => e.target.removeAttribute("loop")} // Remove o loop após a primeira reprodução
+            onEnded={(e) => e.target.removeAttribute("loop")} 
           />
-          {/* Botão de som abaixo do vídeo */}
+      
           <div className="sound-button-container mt-4 flex justify-center">
             <button
               onClick={toggleSound}
               className="flex items-center px-4 py-2 rounded-full bg-[#8B00FF] text-white hover:bg-[#7000CC] transition-all duration-300"
             >
               <img
-                src={isMuted ? SpeakerX : Speaker} // Alterna entre os SVGs
+                src={isMuted ? SpeakerX : Speaker} 
                 alt={isMuted ? "Sound Off" : "Sound On"}
                 className="w-5 h-5 "
               />
