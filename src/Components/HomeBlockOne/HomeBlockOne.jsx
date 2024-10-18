@@ -3,7 +3,7 @@ import "./style.css";
 import Hand from "../../assets/svg/hand.svg";
 import Button from "../Button";
 import { t } from "i18next";
-import Video from "../../assets/videos/videoAvatar.mp4";
+import Video from "../../../public/videos/videoAvatar.mp4";
 import Placeholder from "../../assets/placeHolder.png";
 
 import Speaker from "../../assets/svg/speaker.svg";
